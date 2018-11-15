@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientred"
+    tools:context=".EditProfileActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_edit_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="@string/full_name"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_edit_profile" />
+
+    <Spinner
+        android:id="@+id/edit_gender"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints="Male/Female"
+        android:background="@drawable/input"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/edit_name"
+        app:layout_constraintStart_toStartOf="@+id/edit_name"
+        app:layout_constraintTop_toBottomOf="@+id/edit_name" />
+
+    <Spinner
+        android:id="@+id/edit_spinner_division"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints="বিভাগ"
+        android:background="@drawable/input"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="@+id/edit_dob"
+        app:layout_constraintStart_toStartOf="@+id/edit_dob"
+        app:layout_constraintTop_toBottomOf="@+id/edit_dob" />
+
+
+
+    <EditText
+        android:id="@+id/edit_address"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="@string/address"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/edit_spinner_division"
+        app:layout_constraintStart_toStartOf="@+id/edit_spinner_division"
+        app:layout_constraintTop_toBottomOf="@+id/edit_spinner_division" />
+
+    <EditText
+        android:id="@+id/edit_dob"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="@string/birthdate"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/edit_gender"
+        app:layout_constraintStart_toStartOf="@+id/edit_gender"
+        app:layout_constraintTop_toBottomOf="@+id/edit_gender" />
+
+    <Button
+        android:id="@+id/edit_submit"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_primary"
+        android:text="@string/joma_din"
+        app:layout_constraintEnd_toEndOf="@+id/edit_address"
+        app:layout_constraintStart_toStartOf="@+id/edit_address"
+        app:layout_constraintTop_toBottomOf="@+id/edit_address" />
+
+
+</android.support.constraint.ConstraintLayout>

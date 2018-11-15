@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registercron"
+    tools:context=".AdminRegisterActivity"
+    tools:layout_editor_absoluteY="25dp">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_admin_setup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/colorPrimary"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/admin_setup_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/profile"
+        app:civ_border_color="#FFFFFF"
+        app:civ_border_width="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_admin_setup" />
+
+    <Spinner
+        android:id="@+id/admin_setup_spinner"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:autofillHints="Select Location"
+        android:background="@drawable/input"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/admin_setup_image"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="@+id/admin_setup_image"
+        app:layout_constraintTop_toBottomOf="@+id/admin_setup_image" />
+
+
+    <Button
+        android:id="@+id/admin_setup_submit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button"
+        android:text="@string/finish"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/admin_setup_address"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/admin_setup_address"
+        app:layout_constraintTop_toBottomOf="@+id/admin_setup_address" />
+
+    <EditText
+        android:id="@+id/admin_setup_name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="@string/full_name"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/admin_setup_spinner"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/admin_setup_spinner"
+        app:layout_constraintTop_toBottomOf="@+id/admin_setup_spinner" />
+
+    <EditText
+        android:id="@+id/admin_setup_address"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="@string/address"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/admin_setup_name"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/admin_setup_name"
+        app:layout_constraintTop_toBottomOf="@+id/admin_setup_name" />
+
+
+</android.support.constraint.ConstraintLayout>

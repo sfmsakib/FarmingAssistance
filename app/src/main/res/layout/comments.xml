@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:padding="4dp"
+    android:background="@drawable/input_gray">
+
+    <TextView
+        android:id="@+id/comments_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/full_name"
+        android:padding="3dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:padding="3dp"
+        android:textSize="14sp">
+        <TextView
+            android:id="@+id/comments_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="15dp"
+            android:text="@string/date"
+            android:textSize="12sp"/>
+        <TextView
+            android:id="@+id/comments_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:text="@string/time"
+            android:textSize="12sp"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/comments_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="15dp"
+        android:padding="3dp"
+        android:text="@string/your_comments"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+</LinearLayout>

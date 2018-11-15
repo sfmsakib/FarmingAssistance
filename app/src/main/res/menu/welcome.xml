@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_admin_register"
+        android:orderInCategory="100"
+        android:title="@string/admin_register"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_admin_login"
+        android:orderInCategory="100"
+        android:title="@string/admin_login"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_register"
+        android:orderInCategory="100"
+        android:title="@string/user_register"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_login"
+        android:orderInCategory="100"
+        android:title="@string/user_login"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">FARMING ASSISTANCE</string>
+    <string name="main_nav_title">ফার্মিং এসিস্টেন্স</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">প্রোফাইল নাম</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_welcome">ফার্মিং এসিস্টেন্স</string>
+    <string name="write_your_text_here">আপনার মতামত লিখুন </string>
+    <string name="add_your_image">ইমেজ যোগ করুন </string>
+    <string name="post">পোস্ট করুন </string>
+    <string name="login">লগইন</string>
+    <string name="email_address">ইমেইল এড্রেস</string>
+    <string name="password">পাসওয়ার্ড</string>
+    <string name="don_t_have_account_create_one">আপনার একাউন্ট তৈরি করুন !</string>
+    <string name="logo_desc">লোগো </string>
+    <string name="create_account">একাউন্ট খুলুন </string>
+    <string name="confirm_password">কনফার্ম পাসওয়ার্ড</string>
+    <string name="finish">সম্পূর্ণ করুন</string>
+    <string name="full_name">সম্পূর্ণ নাম</string>
+    <string name="address">ঠিকানা</string>
+    <string name="welcome_to_farmer_assistance">ফার্মিং এসিস্টেন্স ফ্ল্যাটফর্মে আপনাকে স্বাগতম </string>
+    <string name="weather">আবহাওয়ার পূর্বাভাস</string>
+    <string name="announcement">কৃষি ঘোষণা</string>
+    <string name="live_chat">সরাসরি কথোপকথন</string>
+    <string name="profile">প্রোফাইল</string>
+    <string name="logout">প্রস্থান করুন</string>
+    <string name="add_post">পোস্ট করুন</string>
+    <string name="admin_login">অ্যাডমিন লগইন</string>
+    <string name="admin_register">অ্যাডমিন রেজিষ্টার</string>
+    <string name="user_login">ব্যবহারকারী লগইন</string>
+    <string name="user_register">ব্যবহারকারী রেজিষ্টার</string>
+    <string name="has_updated_post">এর নতুন পোস্ট</string>
+    <string name="post_description">পোস্ট বিবরন</string>
+    <string name="post_image">পোস্ট এর ছবি</string>
+    <string name="date">তারিখ</string>
+    <string name="time">সময়</string>
+    <string name="_0_like">0 লাইক</string>
+    <string name="likes">লাইকস</string>
+    <string name="like">লাইক</string>
+    <string name="comment">মন্তব্য</string>
+    <string name="write_your_comment">আপনার মন্তব্য লিখুন…</string>
+    <string name="your_comments">আপনার মন্তব্য…</string>
+    <string name="add_announcement">ঘোষনা যোগ করুন</string>
+    <string name="reciever_message">Receiver Message…</string>
+    <string name="sender_message">Sender Message…</string>
+    <string name="write_your_message">আপনার বার্তা লিখুন</string>
+    <string name="attach_file">ফাইল যোগ করুন</string>
+    <string name="send">পাঠান</string>
+
+    <string-array name="location_array">
+        <item>ঢাকা</item>
+        <item>চট্টগ্রাম</item>
+        <item>রাজশাহী</item>
+        <item>সিলেট</item>
+        <item>বরিশাল</item>
+        <item>খুলনা</item>
+    </string-array>
+
+    <string-array name="gender_array">
+        <item>পুরুষ</item>
+        <item>মহিলা</item>
+        <item>অন্যান্য</item>
+    </string-array>
+
+    <!-- weather -->
+    <string name="city_country">Dhaka, Bangladesh</string>
+    <string name="date_today">Friday, 8 July</string>
+    <string name="current_temperature">26°c</string>
+    <string name="weather_information">Partly Cloud</string>
+    <string name="temp_information">26, partly cloudy</string>
+    <string name="wind">বাতাসের গতি</string>
+    <string name="wind_speed">18 km/h</string>
+    <string name="humidity">আদ্রতা</string>
+    <string name="humidity_rate">73%</string>
+    <string name="day_of_week">Mon</string>
+    <string name="forget_password">আপনি কি পাসওয়ার্ড ভুলে গেছেন?</string>
+    <string name="send_request">রিকুয়েস্ট পাঠান</string>
+    <string name="delete">মুছে ফেলুন</string>
+    <string name="secret_pin">গোপন নম্বর</string>
+    <string name="send_comments">সেন্ড কমেন্টস</string>
+    <string name="joma_din">জমা দিন</string>
+    <string name="birthdate">জন্ম দিন</string>
+    <string name="profile_name">প্রোফাইল নাম</string>
+    <string name="editprofile">সম্পাদন করুন</string>
+    <string name="dhaka">ঢাকা বিভাগ
+
+
+
+
+</string>
+    <string name="chittagong">চট্টগ্রাম বিভাগ</string>
+    <string name="barishal">বরিশাল বিভাগ</string>
+    <string name="sylhet">সিলেট বিভাগ</string>
+    <string name="rajshahi">রাজশাহী বিভাগ</string>
+    <string name="khulna">খুলনা বিভাগ</string>
+    <string name="go">প্রবেশ করুন</string>
+    <string name="user_name">পোস্ট কারীর নাম</string>
+
+</resources>
